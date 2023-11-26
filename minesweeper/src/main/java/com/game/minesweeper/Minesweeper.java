@@ -7,23 +7,14 @@ import java.util.List;
 import java.util.Random;
 import javax.swing.*;
 
+import static com.game.minesweeper.GameConstants.*;
+
 public class Minesweeper {
-    private static final String GAME_NAME = "Minesweeper";
-    private static final int TILE_SIZE = 35;
     private static int NUM_ROWS;
     private static int NUM_COLS;
     private static int MINE_COUNT;
     private static int BOARD_WIDTH;
     private static int BOARD_HEIGHT;
-    private static final String FLAG_TEXT = "🚩";
-    private static final String MINE_TEXT = "💣";
-    private static final String BLANK_TEXT = "";
-    private static final String GAME_OVER_TEXT = "Game Over!";
-    private static final String MINES_CLEARED_TEXT = "Mines Cleared!";
-    private static final String TILE_FONT_NAME = "Arial Unicode MS";
-    private static final String TEXT_LABEL_FONT_NAME = "Arial";
-    private static final int TILE_FONT_SIZE = 20;
-    private static final int TEXT_LABEL_FONT_SIZE = 10;
 
     private JFrame frame;
     private JLabel textLabel;
